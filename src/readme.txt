@@ -1,7 +1,5 @@
-Each team member has their own personal directory.
-
-Us ethis to upload your code samples.
+A directory exists for each team member. Use this directory to upload your personal code samples.
 
 The Common directory will be for code snippets that the team decides is good for future use.
 
-Code in the Common directory must be good quality reusable code  
+Code in the Common directory must be high quality reusable code  
