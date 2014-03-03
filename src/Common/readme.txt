@@ -1,1 +1,1 @@
-This is the directory that holds code approaved by the team
+This is the directory that holds code approved by the team
