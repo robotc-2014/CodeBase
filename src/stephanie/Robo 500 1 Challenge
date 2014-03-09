@@ -1,0 +1,16 @@
+//Robo 500 1 Challenge
+task main()
+{
+	for (int count = 0; count < 8; count++)
+	{
+	nSyncedMotors = synchBC;
+	motor [motorB] = 50;
+	motor [motorC] = 50;
+	wait1Msec (5500);
+		
+	motor [motorB] = -50;
+	motor [motorC] = 50;
+	wait1Msec (950);
+
+	}
+}
