@@ -34,3 +34,5 @@ while(SensorValue(radar)<10)
 	wait1Msec(1900);
 	
 	}
+	
+{	
