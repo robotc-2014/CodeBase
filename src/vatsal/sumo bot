@@ -1,0 +1,13 @@
+#pragma config(StandardModel, "RVW REMBOT")
+#pragma config(RenamedStdModelMotor, motorB, right)
+#pragma config(RenamedStdModelMotor, motorC, left)
+int speed =75;
+task main()
+
+{
+motor[right]=speed;
+motor[left]=speed;
+wait10Msec(600);
+
+
+}
