@@ -10,7 +10,7 @@ task main()
 
 	motor [B] = velocity;
 	motor [C] = neg_vel;
-	wait1Msec (945);
+	wait1Msec (947);
 
 	motor [B] = neg_vel;
 	motor [C] = neg_vel;
@@ -18,11 +18,11 @@ task main()
 
 	motor [B] = neg_vel;
 	motor [C] = velocity;
-	wait1Msec (945);
+	wait1Msec (947);
 
 	motor [B] = high_velocity;
 	motor [C] = high_velocity;
-	wait1Msec (3465);
+	wait1Msec (35000);
 
 
 }
