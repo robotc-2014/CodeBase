@@ -90,9 +90,6 @@ task main()
 	forward2();
 	rightTurn();
 	forward2();
-	//TurnLeft();
-	//MoveForwardB();
-	//TurnRight();
 	x++;
 	}
  	motor[right]=motorSpeed;
