@@ -1,6 +1,7 @@
 void drawLine(int distance);
 void penDown();
 void penUp();
+void dottedLine(int distance);
 
 task main()
 {
@@ -14,6 +15,23 @@ task main()
   // drawLine(8);
   // turnLeft();
   // drawLine(5);
+}
+
+void dottedLine(int distance) {
+  penDown();
+  
+  //put some code here that makes the pen do dotted lines
+  
+  //reset encoders
+  nMotorEnocder[motorB] = 0;
+  nMotorEnocder[motorC] = 0;
+  motor[motorB] = 50;
+  motor[motorC] = 50;
+  while (nMotorEncoder[motorB] < distance) {
+  }
+  penUp();
+  motor[motorB] = 0;
+  motor[motorC] = 0;
 }
 
 void drawLine(int distance) {
