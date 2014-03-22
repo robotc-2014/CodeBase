@@ -1,7 +1,7 @@
 void drawLine(int distance);
 void penDown();
 void penUp();
-void dottedLine(int distance);
+void dottedLine(int dotted_distance);
 
 task main()
 {
@@ -17,7 +17,7 @@ task main()
   // drawLine(5);
 }
 
-void dottedLine(int distance) {
+void dottedLine(int dotted_distance) {
   penDown();
   
   //put some code here that makes the pen do dotted lines
