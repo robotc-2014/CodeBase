@@ -7,6 +7,10 @@ task main()
 {
   int testDistance = 300;
   drawLine(testDistance);
+  dottedLine(TestDistance);
+  
+  //fix task main to include the dotted lines and not have them all be solid lines
+  
   // turnLeft();
   // drawLine(8);
   // turnRight();
