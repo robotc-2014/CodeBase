@@ -5,6 +5,7 @@ void dottedLine(int dotted_distance);
 
 task main()
 {
+  // testing the line drawing functions with sample distance
   int testDistance = 300;
   drawLine(testDistance);
   dottedLine(testDistance);
