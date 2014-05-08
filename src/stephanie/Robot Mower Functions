@@ -1,0 +1,39 @@
+//Functions for Robot Mower
+//Coded by Stephanie Almeida
+//moveForwardWidth goes approximately 17-18 cm
+
+	int sensor;
+	void moveForwardTouchSensor ()
+	{
+		while (SensorValue(sensor == 0))
+		{
+			nSyncedMotors = synchBC;
+			motor [motorB] = 50;
+			motor [motorC] = 50;
+		}
+	}
+
+	//char motorTurn;
+	void turnNinetyDegreesRight ()
+		{
+			nSyncedMotors = synchBC;
+			motor [motorB] = -50;
+			motor [motorC] = 50;
+			wait1Msec (850);
+		}
+	
+	void turnNinetyDegreesLeft ()
+	{
+			nSyncedMotors = synchBC;
+			motor [motorC] = -50;
+			motor [motorB] = 50;
+			wait1Msec (850);
+	}
+
+	void moveForwardWidth ()
+	{
+		nSyncedMotors = synchBC;
+		motor [motorB] = 50;
+		motor [motorC] = 50;
+		wait1Msec (900);
+	}
