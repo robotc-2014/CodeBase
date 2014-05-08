@@ -13,7 +13,6 @@
 		}
 	}
 
-	//char motorTurn;
 	void turnNinetyDegreesRight ()
 		{
 			nSyncedMotors = synchBC;
