@@ -2,9 +2,10 @@
 //Coded by Stephanie Almeida
 //moveForwardWidth goes approximately 17-18 cm
 
-	int sensor;
+
 	void moveForwardTouchSensor ()
 	{
+		int sensor;
 		while (SensorValue(sensor == 0))
 		{
 			nSyncedMotors = synchBC;
