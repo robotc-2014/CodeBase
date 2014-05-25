@@ -9,6 +9,9 @@
 
 void moveForward (int distanceInInches)
 {
+	nMotorEncoder[leftMotor] = 0;
+	nMotorEncoder[rightMotor] = 0;
+	
 	while ( nMotorEncoder[rightMotor] < (distanceInInches/0.01047))
 	{
 		motor[rightMotor] = 50;
@@ -24,6 +27,9 @@ void moveForward (int distanceInInches)
 
 void turnRight ()
 {
+	nMotorEncoder[leftMotor] = 0;
+	nMotorEncoder[rightMotor] = 0;
+	
 	while (nMotorEncoder[rightMotor] > -400)
 	{
 		motor[rightMotor] = -50;
@@ -40,6 +46,9 @@ void turnRight ()
 
 void turnLeft ()
 {
+	nMotorEncoder[leftMotor] = 0;
+	nMotorEncoder[rightMotor] = 0;
+	
 		while (nMotorEncoder[rightMotor] <  400)
 	{
 		motor[rightMotor] = 50;
