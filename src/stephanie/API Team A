@@ -14,21 +14,6 @@
 		}
 	}
 
-	void turnNinetyDegreesRight ()
-		{
-			nSyncedMotors = synchBC;
-			motor [motorB] = -50;
-			motor [motorC] = 50;
-			wait1Msec (850);
-		}
-	
-	void turnNinetyDegreesLeft ()
-	{
-			nSyncedMotors = synchBC;
-			motor [motorC] = -50;
-			motor [motorB] = 50;
-			wait1Msec (850);
-	}
 
 	void moveForwardWidth ()
 	{
