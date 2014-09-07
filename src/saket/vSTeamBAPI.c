@@ -22,6 +22,7 @@ void turnLeft ();
 
 task main()
 {
+	turnLeft();
 }
 
 void moveForward (int distanceInInches)
@@ -41,7 +42,7 @@ void moveForward (int distanceInInches)
 
 void turnRight ()
 {
-	while (nMotorEncoder[rightMotor] > -153)
+	while (nMotorEncoder[rightMotor] > -150)
 	{
 		motor[rightMotor] = -50;
 		motor[leftMotor] = 50;
@@ -57,7 +58,7 @@ void turnRight ()
 
 void turnLeft ()
 {
-		while (nMotorEncoder[rightMotor] < 153)
+		while (nMotorEncoder[rightMotor] < 187)
 	{
 		motor[rightMotor] = 50;
 		motor[leftMotor] = -50;
